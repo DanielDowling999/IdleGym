@@ -6,11 +6,16 @@
     </head>
     <body >
         Welcome to the World of Pokemon.
+
+        <div id="playerinfo">
+            Money: <span id = "currmoney">500</span>P
+        </div>
         <div id="mon1">
             <img id="pic" src=" https://archives.bulbagarden.net/media/upload/1/1a/Spr_2g_074.png" onmouseover="this.src='https://archives.bulbagarden.net/media/upload/a/a5/Spr_2c_074.png';" onmouseout="this.src='https://archives.bulbagarden.net/media/upload/1/1a/Spr_2g_074.png';"></img>
             Name: <span id="name">Geodude</span>
             Level: <span id ="lvl">1</span>
             Exp: <span id = "exp">0</span>
+            <button onclick="buyExp(34)">Buy Exp: 50P</button>
             
         </div>
         <script type="text/javascript" src="main.js"></script>
